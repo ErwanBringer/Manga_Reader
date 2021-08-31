@@ -61,7 +61,7 @@ app.layout = html.Div([
 
 @app.callback(Output("band2", "src"), [Input("but", "n_clicks")])
 def update(n_clicks):
-    return '/assets/'+str(n_clicks)+'.jpg'
+    return str(n_clicks)+'.jpg'
 
 if __name__ == "__main__":
     app.run_server(debug=True)
