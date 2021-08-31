@@ -4,30 +4,7 @@ import dash_bootstrap_components as dbc
 import dash_html_components as html
 import dash_leaflet.express as dlx
 import dash_core_components as dcc
-import dash_leaflet as dl
-import trino
-import pickle
-from urllib.request import urlopen
-import json
-import pandas as pd
-import folium
-import plotly.express as px
 from dash.dependencies import Input, Output, State
-from datetime import datetime as dt
-import pyarrow.parquet as pq 
-import plotly.graph_objects as go
-from dash.exceptions import PreventUpdate
-import datashader as ds
-import datashader.transfer_functions as tf
-from colorcet import fire, kbc, bmw, gray
-import PIL.Image
-import matplotlib.cm as cm
-from datashader import spatial
-from functools import partial
-from datashader.utils import export_image
-from datashader.colors import colormap_select, Greys9
-from IPython.core.display import HTML, display
-import proplot as plot
 
 
 #Définition de l'app dash avec le thème solar
