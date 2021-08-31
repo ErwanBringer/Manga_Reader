@@ -5,7 +5,6 @@ import base64
 import datetime
 import os
 import io
-import pandas as pd
 from urllib.parse import quote as urlquote
 from flask import Flask, send_from_directory
 import dash_core_components as dcc
